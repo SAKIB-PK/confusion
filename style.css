@@ -1,0 +1,28 @@
+table{width:600px;
+margin:0px auto;
+height:300px;
+text-align:center;
+background:orange;
+color:white;
+
+
+}
+table,td,tr{
+	
+border:2px solid white;
+font-family:Agency FB;
+font-size:20px;
+border-collapse:collapse;
+
+}
+.jh{text-align:left;
+padding:10px;}
+.mun{padding:100px;}
+caption{background:orange;
+color:white;
+font-size:20px;
+letter-spacing:8px;
+height:30px;
+
+
+}

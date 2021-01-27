@@ -1,0 +1,14 @@
+.column{
+	padding:30px;
+}
+.rangpur{
+	font-size:40px;
+	color:gray;
+}
+.rangpur:hover{
+	font-size:45px;
+	color:orange;
+}
+.mun{
+	letter-spacing:1px;
+}

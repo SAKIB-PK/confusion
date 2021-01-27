@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple web page design</title>
+	<link rel="stylesheet" href="Css/style.css" type="text/css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+	<script type="text/javascript">
+		jssor_1_slider_init = function() {
+
+			var jssor_1_SlideshowTransitions = [
+			{$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			{$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+			];
+
+			var jssor_1_options = {
+				$AutoPlay: 1,
+				$SlideshowOptions: {
+					$Class: $JssorSlideshowRunner$,
+					$Transitions: jssor_1_SlideshowTransitions,
+					$TransitionsOrder: 1
+				},
+				$ArrowNavigatorOptions: {
+					$Class: $JssorArrowNavigator$
+				},
+				$ThumbnailNavigatorOptions: {
+					$Class: $JssorThumbnailNavigator$,
+					$Cols: 1,
+					$Align: 0,
+					$NoDrag: true
+				}
+			};
+
+			var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+		};
+	</script> 
+</head>
+<body id="home">
+	<header>
+		<div class="top-header">			
+			<div class="container">
+				<div class="pull-left top-info">
+
+						<li><i class="fa fa-phone"></i>+8801738771677</li>
+						<li><i class="fa fa-envelope"></i>Rangpur polytechnic@gmail.com</li>
+					</ul>
+				</div>
+				<div class="pull-right top-links">
+					<ul>
+						<li><a class="our" href="Log-in.html">Login/Sign Up</a></li>
+						<li><a class="our" href="style.html">Creator identification</a></li>
+						<li><a class="our" href="Animated web-page/index.html">Our animation</a></li>				
+						<li><a class="our" href="#">Help</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="main-header">
+			<div class="container">
+				<div class="pull-left logo">
+					<img  src="images/picture9.png" width="220" height="80" alt="simple logo">
+				</div>
+				<div class="pull-right">
+					<nav class="pull-left">
+						<ul>
+											
+							<li class="border"><a class="font" href="Rangpur polytechnic .html">Home</a></li>						
+							<li class="border"><a class="font" href="Gallary.html">TEACHERS&EMPLOYER</a></li>
+							<li class="border"><a class="font" href="Services.html">Services</a></li>
+							<li class="border"><a class="font" href="Log-in.html">Login/Sign</a></li>
+						</ul>
+					</nav>
+					<div class="search-wrapper pull-right">
+						<button class="search" type="button"><i class="fa fa-search"></i></button>
+						<div class="search-box">
+							<input type="text" name="search" placeholder="Enter keywords here...">
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</header>
+	<!-- / header -->
+
+	<div class="slider">
+		<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1400px;height:600px;overflow:hidden;visibility:hidden; max-width: 100%">
+			<!-- Loading Screen -->
+			<div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('img/loading.gif') no-repeat 50% 50%;background-color:rgba(0, 0, 0, 0.7); max-width: 100%"></div>
+			<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1400px;height:600px;overflow:hidden;">
+				<div>
+				
+					<img data-u="image" src="images/23376314_1524264584321891_121385561422385176_n.jpg" />
+					<div u="thumb"><img src="images/MUN.png" width="100" height="100" margin-bottom="-30px" alt="simple logo">
+						<h1 style="font-size:35px;">Welcome To RANGPUR POLYTECHNIC</h1>
+						
+					</div>
+				</div>
+				<div>
+					<img data-u="image" src="images/laptop.jpg" />
+					<div u="thumb">
+						<h1 style="font-size:32px;">COME FOR TECHNOLOGY,GO FOR GROTH</h1>
+						
+											<img src="images/picture9.png" width="350" height="130" alt="simple logo">
+
+					</div>
+				</div>
+				<div>
+					<img data-u="image" src="images/26733815_1591926617555687_535921246931816400_n.jpg" />
+					<div u="thumb">
+						<h1 style="font-size:32px;">COME FOR TECHNOLOGY , GO FOR GROTH</h1>
+						
+											<img src="images/picture9.png" width="350" height="130" alt="simple logo">
+
+					</div>
+				</div>
+				
+				<a data-u="any" href="https://www.jssor.com" style="display:none">html slider</a>
+			</div>
+			<!-- Thumbnail Navigator -->
+			<div u="thumbnavigator" style="position:absolute;bottom:160px;width:700px;height:185px;color:#FFF;" data-autocenter="1" data-scale-bottom="0.75">
+				<div u="slides">
+					<div u="prototype" style="position:absolute;top:0;left:0;width:700px;height:185px; text-align: center; padding: 10px 0">
+						<div u="thumbnailtemplate"></div>
+					</div>
+				</div>
+			</div>
+			<!-- Arrow Navigator -->
+			<div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+				<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+					<path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+				</svg>
+			</div>
+			<div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+				<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+					<path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<!-- / .slider -->
+
+	<section id="features" class="intro text-center">
+		<div class="container">
+			<h1 class="dev" style="font-size:27px;">Devlop by munmun ahamed,Ellin,Robiul,Sompa,Mehedi,Nishu & Kumkum</h1>	
+			<div class="intro-text">
+											Rangpur Polytechnic Institute is a technical educational institution in Rangpur, Bangladesh. It was established in 1968. It provides four year Diploma in Engineering Degree.
+			</div>	
+			<div class="row">
+				<div class="column">
+	<img class="price" src="images/(11).jpg" width="180" height="200" alt="simple logo">
+					<h2>RAWNAK MAHMUD</h2>
+					<div class="column-text">
+													Rangpur Polytechnic Institute is a technical educational institution in Rangpur, Bangladesh. It was established in 1968. It provides four year Diploma in Engineering Degree.
+					</div>
+					<a href="#" class="btn-yellow">Explore More>></a>
+				</div>
+				<div class="column">
+	<img class="price" src="images/(10).jpg" width="180" height="200" alt="simple logo">
+					<h2>MD:KHALED MAHMUD</h2>
+					<div class="column-text">
+												Rangpur Polytechnic Institute is a technical educational institution in Rangpur, Bangladesh. It was established in 1968. It provides four year Diploma in Engineering Degree.
+					</div>
+					<a href="#" class="btn-yellow">Explore More>></a>
+				</div>
+				<div class="column mr0">
+	<img class="price" src="images/(4).jpg" width="180" height="200" alt="simple logo">
+					<h2>Fouad Mohammad Touhidul Ashraf</h2>
+					<div class="column-text">
+													Rangpur Polytechnic Institute is a technical educational institution in Rangpur, Bangladesh. It was established in 1968. It provides four year Diploma in Engineering Degree.
+					</div>
+					<a href="#" class="btn-yellow">Explore More>></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		
+	</section>
+	<!-- / .intro -->
+
+	<section id="services" class="services bg-light-grey text-center">
+		<div class="container">
+			<h1 class="our-services">Our Services</h1>	
+			<div class="row">
+				<div class="block column">
+					<div class="column text-column">
+						<h2>Project Title 1</h2>
+						<div class="column-text">
+														Rangpur Polytechnic Institute is a technical educational institution in Rangpur, Bangladesh. It was established in 1968.
+						</div>
+						<a href="#" class="btn-yellow">Explore More</a>
+					</div>
+					<div class="column img-column">
+					<img src="images/Picture9.png" width="285" height="213" alt="service1">
+
+					</div>	
+					<div class="clearfix"></div>
+				</div>
+				<div class="block column">
+					<div class="column text-column">
+						<h2>Project Title 2</h2>
+						<div class="column-text">
+							Rangpur Polytechnic Institute is a technical educational institution in Rangpur, Bangladesh. It was established in 1968.
+						</div>
+						<a href="#" class="btn-yellow">Explore More</a>
+					</div>
+					<div class="column img-column">
+					<img src="images/laptop.jpg" width="285" height="213" alt="service1">
+C					</div>	
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>			
+			</div>
+			<div class="row row2">
+				<div class="block column">			
+					<div class="column img-column">
+					<img src="images/Picture4.png" width="380" height="213" alt="service1">
+					</div>
+					<div class="column text-column">
+						<h2>Project Title 3</h2>
+						<div class="column-text">
+														Rangpur Polytechnic Institute is a technical educational institution in Rangpur, Bangladesh. It was established in 1968.
+						</div>
+						<a href="#" class="btn-yellow">Explore More</a>
+					</div>	
+					<div class="clearfix"></div>
+				</div>
+				<div class="block column">
+					<div class="column img-column">
+						<img src="images/ilaptop.jpg" width="300" height="213" alt="service1">
+					</div>	
+					<div class="column text-column">
+						<h2>Project Title 4</h2>
+						<div class="column-text">
+							Rangpur Polytechnic Institute is a technical educational institution in Rangpur, Bangladesh. It was established in 1968. 
+						</div>
+						<a href="#" class="btn-yellow">Explore More</a>
+					</div>				
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>			
+			</div>
+		</div>
+	</section>
+	<!-- / .services -->
+
+	<section class="subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="column">
+					<h2 class="orange">YOUR SUCCESS OUR PROUD</h2>
+					<p class="orange">Just send us your email address and you can receive our daily news.</p>
+				</div>
+				<div class="column pull-right">
+					<form name="subscribe">
+						<input class="email" type="email" name="email" placeholder="Enter Your Email here.....">
+						<button type="submit" class="btn-subscribe">SUBSCRIBE</button>
+					</form>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+	<!-- / .subscribe -->
+
+	<section id="contact" class="contact">
+		<div class="container">
+			<h1 class="text-center">Contact Us</h1>	
+			<div class="row outer-row">
+				<div class="column">
+					<form name="contact-form">
+						<div class="row">
+							<div class="form-group column">
+								<input type="text" name="name" placeholder="Name*">
+							</div>
+							<div class="form-group column mr0">
+								<input type="email" name="email" placeholder="Email*">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="form-group">
+							<textarea name="message" placeholder="Message" rows="8"></textarea>
+						</div>
+						<button type="submit" class="btn-yellow">Send Feedback</button>
+					</form>
+				</div>
+				<div class="column mr0">
+					<div class="google-map">
+<video class="video" autoplay controls="controls"> 
+
+<source src="Video/Amar Shonar Bangla- - Bangladesh National Anthem Bangla & English lyrics.mp4" video="web/mp4"" ></video>
+					</div>
+					<div class="social-icons">
+						<a class="lip" href="#"><i class="fa fa-facebook"></i></a>
+						<a class="lip" href="#"><i class="fa fa-twitter"></i></a>
+						<a class="lip" href="#"><i class="fa fa-linkedin"></i></a>
+						<a class="lip" href="#"><i class="fa fa-youtube"></i></a>
+					
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>
+	<!-- / .contact -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="column">Copyright©2019. All Rights Reserved</div>
+				<div class="column pull-right">
+					<a href="#">Home</a>			
+					<a href="#">About Us</a>
+					<a href="#">Features</a>
+					<a href="#">Services</a>
+					<a href="#">Contact Us</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</footer>
+	<!-- / footer -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jssor.slider-25.0.7.min.js"></script>
+	<script type="text/javascript">jssor_1_slider_init();</script>	
+	<script type="text/javascript">
+		$(".search").click(function(){
+			$(".search-box").slideToggle("fast").find("input").focus();
+		});
+
+		$("nav li a").click(function() {
+			var target = $(this).attr("href");
+			$('html,body').animate({
+				scrollTop: $(target).offset().top},
+				'slow');
+		});
+	</script>  
+
+</body>
+</html>

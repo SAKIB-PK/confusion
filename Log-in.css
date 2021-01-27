@@ -1,0 +1,110 @@
+body{
+	margin:0 auto;
+	padding:0;
+	background:url(image/mun.jpg);
+	background-position:absolute;
+	background-size:cover;
+	font-family:sans-serif;
+	
+	
+}
+.login_box{
+	margin:150px auto;
+	height:560px;
+	width:350px;
+	background-color:#818B80;
+	position:absolute;
+	top:50%;
+	left:20%;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	border-radius:5px 90px 30px 90px;
+	color:#FEFFFA;
+	padding:70px 30px;
+	}
+.img{
+	height:100px;
+	width:100px;
+	background-color:#F17A5C;
+	top:-50px;
+	position:absolute;
+	border-radius:50%;
+	left:calc(50% - 50px);
+}
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+.login_box p{
+margin:0;
+padding:0;
+font-weight:bold;	
+}
+.login_box input{
+	width:100%;
+	margin-bottom:20px;
+
+
+	
+}
+.login_box input[type="text"], input[type="password"]
+{
+	border:none;
+		outline:none;
+		background:transparent;
+		border-bottom:2px solid #fff;
+		height:40px;
+		color:#fff;
+		font-size:16px;
+		
+	
+}
+.login_box input[type="submit"]
+{
+	background:#F17A5C;
+	border:none;
+	height:30px;
+	color:white;
+	font-size:18px;
+	border-radius:20px;
+	
+}
+
+.login_box input[type="submit"]:hover{
+	color:white;
+	background:black;
+	cursor:pointer;
+	
+	
+	
+}
+.login_box a{
+	text-decoration:none;
+	line-height:30px;
+	font-size:13px;
+	color:#274756;
+	padding-right:70px;
+	font-weight:bolder;
+	color:#2A4A59
+	
+}
+.login_box a:hover{
+	color:#FAC134;
+	border-bottom:1px solid #FAC134;
+	
+}
+.login_box input[type="file"]
+{
+
+}
+h4{
+	color:white;
+}
+h4:hover{
+color:#2F4F5E;
+font-size:15px;
+border-bottom:2px solid white;
+}
+

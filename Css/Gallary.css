@@ -1,0 +1,19 @@
+.teacher{
+	padding-left:110px;
+	margin-bottom:-30px;
+	
+}
+.Rawnak{
+	padding:15px;
+	margin-left:50 auto;
+	border-radius:30%;
+	
+}
+.Rawnak:hover{
+	transform:scale(1.1);
+	transition:0.5s all ease;
+}
+.Mun{
+	
+	padding-left:458px;
+}
